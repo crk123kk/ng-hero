@@ -3,3 +3,22 @@
   <h3>hello {{name}}'s world</h3>
 </div>
 
+<h4>属性指令(Attribute directive): 用于改变组件的外观或行为</h4>
+<h4>ngStyle指令： 用于设定给定 DOM 元素的 style 属性</h4>
+<div>
+  <h5>绑定常量</h5>
+  <p [ngStyle]="{'color': 'red'}">[ngStyle]="{{content1}}"</p>
+  <h5>绑定表达式</h5>
+  <p [ngStyle]="{'color': fontColor}">[ngStyle]="{{content2}}"</p>
+  <p [ngStyle]="{'color': getColor(fontColor)}">[ngStyle]="{{content3}}"</p>
+  <p [ngStyle]="{'color': fontColor === 'blue' ? 'blue' : 'red'}">[ngStyle]="{{content4}}"</p>
+</div>
+<h4>[style.property语法]</h4>
+<div>
+  <h5>绑定常量</h5>
+  <p [style.color]="'red'">[style.color]="'red'"</p>
+  <h5>绑定表达式</h5>
+  <p [style.color]="fontColor">[style.color]="fontColor"</p>
+  <p [style.color]="getColor(fontColor)">[style.color]="getColor(fontColor)"</p>
+  <p [style.color]="fontColor === 'blue' ? 'blue' : 'red'">[style.color]="fontColor === 'blue' ? 'blue' : 'red'"</p>
+</div>
