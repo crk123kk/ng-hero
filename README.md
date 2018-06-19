@@ -7,3 +7,6 @@ angular的英雄教程
 ###### hero-base
 是一个可以执行的基本angular项目，利用ng-cli自行搭建的，其他的demo都是在这个基础上不断拓展的
 
+###### hero-directive
+关于指令的一些应用，从最基本的内置指令到后面的自定义指令
+
