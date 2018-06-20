@@ -10,3 +10,9 @@ angular的英雄教程
 ##### hero-directive
 关于指令的一些应用，从最基本的内置指令到后面的自定义指令
 
+##### hero-service
+在hero-directive的基础上添加了通过服务获取本地mock的功能
+
+##### hero-route
+在hero-service的基础上添加了路由的功能
+
