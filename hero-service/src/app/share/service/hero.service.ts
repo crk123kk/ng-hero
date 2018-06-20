@@ -9,7 +9,7 @@ export class HeroService {
     public _http: Http
   ) { }
 
-  getInfo() {
+  getHeroes() {
     return this._http.get('/assets/mock/mock.json').map(res => this.handleResponse1(res));
   }
 
